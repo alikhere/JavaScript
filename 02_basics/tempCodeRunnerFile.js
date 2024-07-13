@@ -1,2 +1,4 @@
-const allNewHeros = [...marvel, ...dc]
-// cons
+const tinderUser = {}
+
+// tinderUser.id = "ali123"
+// tinderUser.isLoggedIn = false

@@ -1,24 +1,24 @@
+// const tinderUser = {} // M1 to declear obj.==non singleton obj
+// const tinderUser = new Object() // M2 obj.way do same hi hai== singleton obj
 
-let myDate = new Date()
-console.log(typeof myDate);
+const tinderUser = {}
 
-console.log(myDate);
-console.log(myDate.toString());
-console.log(myDate.toDateString());
-console.log(myDate.toLocaleString());
+tinderUser.id = "ali123"
+tinderUser.isLoggedIn = false
 
-let myNewDate = new Date(2023, 0, 23)
-console.log(myNewDate.toDateString())
+console.log(tinderUser);
 
-let NewDate = new Date(2023, 0, 23, 5, 3)
-console.log(myNewDate.toLocaleString())
+const regularUser = {
+    email: "alik@gmail.com",
+    fullname: { //obj.ke ander bhi kitna bhi obj declear kr sakte hai
+        userfullname: {
+            firstname: "ali",
+            lastname: "khurshid"
 
-NewDate = new Date("2024-01-14")
-console.log(myNewDate.toLocaleString())
+        }
+    }
+}
 
-
-
-
-
+console.log(regularUser.fullname)
 
 
