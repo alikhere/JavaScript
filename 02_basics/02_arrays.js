@@ -13,7 +13,7 @@ const dc = ["superman", "flase", "batman"]
 
 
 // const allNewHeros = [...marvel, ...dc]
-// console.log(allNewHeros) //do same thing as concat but is more preferable as can con concat more than 2 elements
+// console.log(allNewHeros) //do same thing as concat but is more preferable as can con concat more than 2 element.
 
 const another_array = [1,2,3,[3,4,[4,3]]]
 const real_another_array = another_array.flat(Infinity) //yaha array me bhi arrays pth sun value print krne ke liye flat use krte hai
