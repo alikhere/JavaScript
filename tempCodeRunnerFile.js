@@ -1,9 +1,4 @@
-// Immmediately Invoked Fuction Expression (IIFE)// want to immediate execute fun
+const myNums = [1,2,3,4,5,6]
 
-(function chai() {
-    console.log(`DB connected`) //what is iife--- jo fun immediate execute ho aur globale scope ke pollution se bachane ke liyekrte hai
-})()
-
-( () => {
-    console.log("DB connected two")
-})()
+const newNums = myNums.map( (num) => num + 10 )
+console.log(newNums)
